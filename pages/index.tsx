@@ -21,7 +21,7 @@ export default function Home() {
         </div>
 
         <div className={styles.center}>
-          <p>Hana's</p>
+          <p>Hana&apos;s</p>
           <Image
             className={styles.logo}
             src="/next.svg"
