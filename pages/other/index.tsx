@@ -32,6 +32,7 @@ export default function Home() {
                     <a 
                         href="https://sketchfab.com/3d-models/trnio-meal-202302-932d9104d3704d1eadf2eed0a4705c06?utm_medium=embed&utm_campaign=share-popup&utm_content=932d9104d3704d1eadf2eed0a4705c06" 
                         target="_blank" 
+                        rel="noopener noreferrer"
                         style={{fontWeight: 'bold', color: '#1CAAD9'}}
                     > 
                         trnio meal 202302 
@@ -39,6 +40,7 @@ export default function Home() {
                     <a 
                         href="https://sketchfab.com/hanadev?utm_medium=embed&utm_campaign=share-popup&utm_content=932d9104d3704d1eadf2eed0a4705c06" 
                         target="_blank" 
+                        rel="noopener noreferrer"
                         style={{fontWeight: 'bold', color: '#1CAAD9'}}
                     > 
                         hanadev 
@@ -46,6 +48,7 @@ export default function Home() {
                     <a 
                         href="https://sketchfab.com?utm_medium=embed&utm_campaign=share-popup&utm_content=932d9104d3704d1eadf2eed0a4705c06" 
                         target="_blank" 
+                        rel="noopener noreferrer"
                         style={{fontWeight: 'bold', color: '#1CAAD9'}}
                     >
                         Sketchfab
