@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from '@next/font/google'
 import styles from '@/styles/Home.module.css'
+import Link from 'next/link'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -42,39 +43,27 @@ export default function Home() {
         </div>
 
         <div className={styles.grid}>
-          <a
-            href=""
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <Link href="" className={styles.card}>
             <h2 className={inter.className}>
               AI
             </h2>
             <p className={inter.className}>
               AI experiments
             </p>
-          </a>
+          </Link>
 
-          <a
-            href=""
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <Link href="" className={styles.card}>
             <h2 className={inter.className}>
               AR
             </h2>
             <p className={inter.className}>
               AR experiments
             </p>
-          </a>
+          </Link>
 
-          <a
+          <Link
             href=""
             className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
           >
             <h2 className={inter.className}>
               Games
@@ -82,13 +71,11 @@ export default function Home() {
             <p className={inter.className}>
               Toy Games
             </p>
-          </a>
+          </Link>
 
-          <a
-            href=""
+          <Link
+            href="/other"
             className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
           >
             <h2 className={inter.className}>
               Other <span>-&gt;</span>
@@ -96,7 +83,7 @@ export default function Home() {
             <p className={inter.className}>
               Other experiments
             </p>
-          </a>
+          </Link>
         </div>
       </main>
     </>
