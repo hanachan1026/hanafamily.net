@@ -21,6 +21,7 @@ export default function Home() {
         </div>
 
         <div className={styles.center}>
+          <p>Hana's</p>
           <Image
             className={styles.logo}
             src="/next.svg"
@@ -48,7 +49,7 @@ export default function Home() {
             rel="noopener noreferrer"
           >
             <h2 className={inter.className}>
-              AI <span>-&gt;</span>
+              AI
             </h2>
             <p className={inter.className}>
               AI experiments
@@ -62,7 +63,7 @@ export default function Home() {
             rel="noopener noreferrer"
           >
             <h2 className={inter.className}>
-              AR <span>-&gt;</span>
+              AR
             </h2>
             <p className={inter.className}>
               AR experiments
