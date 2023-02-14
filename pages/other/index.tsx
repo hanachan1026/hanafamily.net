@@ -18,6 +18,7 @@ export default function Home() {
       <main className={styles.main}>
         <div className={styles.center}>
             <div className="sketchfab-embed-wrapper">
+                <p style={{color: 'red'}}>Having problem now</p>
                 <iframe 
                     src="https://sketchfab.com/models/932d9104d3704d1eadf2eed0a4705c06/embed"
                     title="trnio meal 202302" 
