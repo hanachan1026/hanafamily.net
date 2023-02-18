@@ -20,7 +20,14 @@ export default function Home() {
           <p></p>
           <div></div>
         </div>
-
+        <Image
+            className={styles.logo}
+            src="/takuma-hanaya.svg"
+            alt="Caligraphy"
+            width={180}
+            height={37}
+            priority
+          />
         <div className={styles.center}>
           <p>Hana&apos;s</p>
           <Image

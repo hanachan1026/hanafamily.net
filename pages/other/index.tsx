@@ -56,6 +56,9 @@ export default function Home() {
                     </a>
                 </p>
             </div>
+            <Link href="https://sketchfab-static.pages.dev/" target="_blank" rel="noopener noreferrer">
+                Working examples
+            </Link>
         </div>
 
         <div className={styles.grid}>
