@@ -62,6 +62,12 @@ export default function Home() {
         </div>
 
         <div className={styles.grid}>
+          <Link href="/" className={styles.card}>
+            <h2 className={inter.className}>
+              Home
+            </h2>
+          </Link>
+          
           <Link href="" className={styles.card}>
             <h2 className={inter.className}>
               AI
