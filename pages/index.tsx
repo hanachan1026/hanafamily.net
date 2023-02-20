@@ -59,7 +59,7 @@ export default function Home() {
             </p>
           </Link>
 
-          <Link href="" className={styles.card}>
+          <Link href="/ar" className={styles.card}>
             <h2 className={inter.className}>
               AR
             </h2>
