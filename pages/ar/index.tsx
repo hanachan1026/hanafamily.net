@@ -46,7 +46,16 @@ export default function Home() {
     `
     scriptTag
 
-    body.insertAdjacentElement('beforeend', scriptTag);
+    // wait until the status is ready
+    const insertScript = () => {
+      if (status === 'ready') {
+        body.insertAdjacentElement('beforeend', scriptTag)
+      } else {
+        setTimeout(insertScript, 1000)
+      }
+    }
+
+    insertScript()
   })
 
   // if the script is loaded, then render the iframe
@@ -75,7 +84,7 @@ export default function Home() {
           </div>
           <Image
             className={styles.logo}
-            src="/artificial-intelligence.svg"
+            src="/augmented-reality.svg"
             alt="Caligraphy"
             width={180}
             height={37}
